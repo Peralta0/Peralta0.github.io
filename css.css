@@ -257,10 +257,11 @@ section.section-1{
 	float: left;
 }
 .img-autor{
+	background-size: 100% 100%;
+	background-image: url('img/p.jpg');
 	height: 40px;
 	width: 40px;
 	float: left;
-	position: relative;
 	border-radius: 20px;
 	background-color: red;
 }
@@ -392,7 +393,19 @@ section.section4{
 /*SECTION4*/
 
 
-
+footer{
+	color: white;
+	padding: 40px 0;
+	background-color: #192123;
+}
+footer p:nth-of-type(1){
+	margin-left: 10px;
+	float: left;
+}
+footer p:nth-of-type(2){
+	margin-rigth: 10px;
+	float: right;
+}
 
 
 
@@ -412,6 +425,7 @@ section.section4{
 
 
 @media screen and (max-width: 580px){
+
 	.section2 img{
 	top: 50px;
 	margin-top: 20px;
@@ -592,5 +606,16 @@ section.section4 .container{
 }
 
 /*SECTION-4*/
+footer{
+	text-align: center;
+}
+footer p:nth-of-type(1){
+	margin-left: 0px;
+	float: none;
+}
+footer p:nth-of-type(2){
+	margin-rigth: 0px;
+	float: none;
+}
 
 }
