@@ -353,6 +353,7 @@ section.contato input[type=submit]{
 }
 
 footer{
+	overflow: hidden;
 	padding: 2% 2%;
 	background-color: #242424;
 }
@@ -385,13 +386,14 @@ footer p{
 }
 .sidebar{
 	width: 30%;
+	float: left;
 }
 .sidebar h2{
 	font-size: 32px;
 
 }
 .search1{
-	width: 300px;
+	width: 90%;
 }
 .barra-preco{
 	width: 100%;
@@ -430,8 +432,47 @@ footer p{
 .valor-pesquisa p{
 	display: inline-flex;
 }
-
-
+.search2{
+	margin-top: 20px;
+}
+.form-venda-wraper{
+	margin-top: 10px;
+}
+.search2 input[type=checkbox]{
+	display: none;
+}
+.search2 label{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 3px;
+	position: relative;
+}
+.search2 .circle{
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	display: none;
+	width: 15px;
+	height: 15px;
+	background-color: black;
+	border-radius: 10px;
+}
+.form-venda-wraper input[type=checkbox]:checked + label > .circle{
+	display: block;
+}
+.search2 span{
+	vertical-align: top;
+	display: inline-block;
+	padding: 0 10px;
+}
+.vitrine-venda{
+	width: 70%;
+	float: left;
+}
 
 
 
@@ -515,6 +556,23 @@ footer a{
 footer nav p{
 	display: flex;
 	justify-content: center;
+}
+
+.sidebar{
+	width: 100%;
+	text-align: center;
+}
+
+.vitrine-venda{
+	width: 100%;
+	text-align: center;
+}
+.search1{
+	display: inline-block;
+}
+.search2{
+	text-align: center;
+	margin: 0 auto;
 }
 }
 
