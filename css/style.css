@@ -93,7 +93,6 @@ section.banner{
 	background-size: contain;
 	background-position: right bottom;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 
 .text-banner{
