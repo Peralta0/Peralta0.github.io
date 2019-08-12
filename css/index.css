@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    height: 100%;
+    background-color: #edf8f9;
+}
+.MG{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+header{
+    background-color:white;
+    padding: 15px 0;
+}
+nav{
+    text-align: center;
+}
+nav lu{
+    align-items:center;
+    display: inline-flex;
+    text-decoration: none;
+}
+nav li{
+    padding: 0 20px;
+    align-items:center;
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+nav img{
+   height: 150px;
+   width: 140px;
+}
+
+/*Section 1*/
+ .sliderBox{
+     background-image: url('../Img/imgSlider1.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     align-items:center;
+     width: 100%;
+     height: calc(90vh - 100px);
+     background-color: black;
+     justify-content: space-between;
+     display:flex;
+ }
+ 
+.sliderBox img{
+     margin: 0 30px;
+     justify-content: space-between;
+     width: 60px;
+     height: 60px;
+ }
+ /*Section 2*/
+ .section2{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.section2 .MG{
+    width: 100%;
+    display: inline-flex;
+    
+}
+ .avaliacoes{
+     width: 50%;
+     padding: 20px 4%;
+     background-color: aquamarine;
+ }
+ .avaliacoes h3{
+     padding: 5px 0 10px 0;
+     text-align: center;
+     color: #fefcff;
+     font-weight: bold;
+     font-size: 25px;
+ }
+ .avaliacoes .tituloAutor{
+    display: inline-flex;
+    color: #edf8f9;
+}
+.avaliacoes .fotoAvaliador{
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 20px;
+}
+.avaliacoes .star{
+    display: block;
+    width: 30%;
+    height: 35px;
+    background-size: contain;
+}
+.avaliacoes p:nth-last-child(2){
+    margin-top: 20px;
+    color:#fefcff;
+}
+.avaliacoes .mineNave{
+    margin-top: 20px;
+}
+.avaliacoes .mineNave img{
+    margin-right: 12px; 
+    height: 30px;
+    width: 30px;
+}
+ .funcionarios{
+     width: 50%;
+     padding: 20px 2%;
+     background-color:#f19bff;
+ }
+ .funcionarios h3{
+    padding: 5px 0 10px 0;
+    text-align: center;
+    color: #fefcff;
+    font-weight: bold;
+    font-size: 25px;
+}
+.funcionarios .tituloAutor{
+   display: inline-flex;
+   color: #edf8f9;
+}
+.funcionarios .fotoAvaliador{
+   margin-left: 5px;
+   height: 30px;
+   width: 30px;
+   background-color: black;
+   border-radius: 20px;
+}
+.funcionarios p:nth-last-child(2){
+   margin-top: 20px;
+   color:#fefcff;
+}
+.funcionarios .mineNave{
+   margin-top: 20px;
+}
+.funcionarios .mineNave img{
+   margin-right: 12px; 
+   height: 30px;
+   width: 30px;
+}
+/*Section3*/
+.section3{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.section3 .MG{
+    width: 100%;
+    display: inline-flex;
+    
+}
+.section3 .contato{
+   width: 50%;
+   background-color: #f19bff;
+   padding: 20px 4%;
+}
+.section3 .contato h2{
+    color: white;
+    text-align: center;
+ }
+ .section3 .contato form {
+    text-align: center;
+}
+.section3 .contato form input{
+    margin-top: 15px;
+}
+.section3 .contato form input[type=text]{
+    padding: 2% 2%;
+    width: 100%;
+    height: 36px;
+ }
+ .section3 .contato .w50{
+    display: inline-flex;
+    width: 100%;
+ }
+ .section3 .contato .w50 input[type=text]{
+    width: 50%;
+    height: 40px;
+ }
+ .section3 .contato .w50 input:nth-child(2){
+    margin-left: 5px;
+ }
+.section3 textarea{
+    margin-top: 10px;
+    resize: none;
+    width: 100%;
+    height: 250px;
+}
+.section3 input[type=submit]{
+    background: rgb(0, 99, 156);
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+    display: inline-block;
+    
+}
+.section3 .mapa{
+    width: 50%;
+    background-color: aquamarine;
+    padding: 20px 4%;
+ }
+ .section3 .mapa h2{
+    text-align: center;
+    color: white;
+ }
+ .section3 .map{
+   margin-top: 30px;
+   background-color: black;
+   width: 100%;
+   padding-top: 60%;
+ }
