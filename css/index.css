@@ -56,6 +56,7 @@ nav img{
  }
  
 .sliderBox img{
+    cursor: pointer;
      margin: 0 30px;
      justify-content: space-between;
      width: 60px;
@@ -110,6 +111,7 @@ nav img{
     margin-top: 20px;
 }
 .avaliacoes .mineNave img{
+    cursor: pointer;
     margin-right: 12px; 
     height: 30px;
     width: 30px;
@@ -224,4 +226,11 @@ nav img{
    background-color: black;
    width: 100%;
    padding-top: 60%;
+ }
+ footer{
+     color: #fefcff;
+     text-align: center;
+     border-top: 1px solid black;
+     padding: 2% 2%;
+     background: linear-gradient(352deg, rgba(235,192,233,0.4738270308123249) 0%, rgba(219,50,233,0.6362920168067228) 100%);
  }
